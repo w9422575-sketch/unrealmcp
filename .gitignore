@@ -1,0 +1,17 @@
+# Local configuration and runtime state
+agent/config/agent.env
+agent/config/*.local.json
+agent/logs/
+
+# Laster runtime state and build output
+laster/data/
+laster/dist/
+laster/node_modules/
+
+# Python and OS files
+__pycache__/
+*.pyc
+.venv/
+.env
+Thumbs.db
+.DS_Store

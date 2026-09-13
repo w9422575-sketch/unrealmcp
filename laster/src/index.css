@@ -1,0 +1,73 @@
+@import '@fontsource-variable/space-grotesk';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/600.css';
+
+:root {
+  font-family: 'Space Grotesk Variable', sans-serif;
+  color: #20231f;
+  background: #e8e9e3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #20231f;
+  --ink-soft: #5f645d;
+  --paper: #f7f7f2;
+  --surface: #ffffff;
+  --line: #d5d8d0;
+  --line-strong: #b8beb4;
+  --graphite: #171a17;
+  --graphite-2: #222622;
+  --coral: #ff6846;
+  --coral-dark: #d94728;
+  --signal: #a5ef64;
+  --cyan: #63d7e5;
+  --amber: #f2b94b;
+  --danger: #d84b3e;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  letter-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+::selection {
+  color: #171a17;
+  background: #a5ef64;
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
